@@ -1,0 +1,46 @@
+*{
+    transition: all .2s linear;
+}
+
+.jumbotron, #portofolio, #team{
+    background-color: #e2edff;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+.box{
+    border: 8px solid #333;
+    box-shadow: 0 5px 5px #000;
+    overflow: hidden;
+}
+
+.box img{
+    object-fit: cover;
+    filter: grayscale();
+    width: 100%;
+}
+
+.box:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.box .info{
+    text-align: center;
+    background: white;
+    position: relative;
+}
+
+.box .info h4{
+    text-transform: capitalize;
+}
+
+.box .info span{
+    color: gray;
+}
+
+.footer{
+    background-color: #7faee1;
+}
